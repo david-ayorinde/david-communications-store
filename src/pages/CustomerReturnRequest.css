@@ -1,0 +1,118 @@
+
+.customer-return-page {
+  min-height: 100vh;
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc);
+  box-sizing: border-box;
+}
+
+.customer-return-card {
+  width: 100%;
+  max-width: 620px;
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 18px 50px rgb(15 23 42 / 8%);
+  box-sizing: border-box;
+}
+
+.customer-return-brand {
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.customer-return-card h1 {
+  margin: 12px 0;
+  color: #0f172a;
+  font-size: 30px;
+}
+
+.customer-return-intro,
+.customer-return-footnote {
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.customer-return-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.customer-return-form label {
+  margin-top: 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.customer-return-form input,
+.customer-return-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+.customer-return-form input:focus,
+.customer-return-form textarea:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #2563eb;
+}
+
+.customer-return-form button,
+.customer-return-success button {
+  margin-top: 12px;
+  padding: 14px;
+  border: 0;
+  border-radius: 9px;
+  background: #1d4ed8;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.customer-return-form button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.customer-return-error {
+  color: #b91c1c;
+}
+
+.customer-return-success {
+  margin-top: 24px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #eff6ff;
+  overflow-wrap: anywhere;
+}
+
+.customer-return-footnote {
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+@media (max-width: 520px) {
+  .customer-return-page {
+    padding: 18px 10px;
+  }
+
+  .customer-return-card {
+    padding: 20px;
+  }
+
+  .customer-return-card h1 {
+    font-size: 25px;
+  }
+}
